@@ -1,39 +1,45 @@
 package fr.solutec.resaevents.entites;
-public class Role {
-    // portée - type - nom du champ
-    private int id;
-    private boolean active;
-    private String libelle;
-    public Role () {
-        this.active = false;
-    }
-    /*
-Définir méthodes(actions)
- */
 
-//Signature
-// portée - type de donnée retournée - nom(paramètres(type - nom))
-    public void setLibelle(String libelle) {
+import fr.solutec.resaevents.enums.RoleEnum;
+
+public class Role {
+    // portée type nom;
+    private int id;
+    private RoleEnum libelle;
+
+    public Role() {
+
+    }
+
+    public Role(int id, RoleEnum libelle) {
+        this.id= id;
         this.libelle = libelle;
     }
 
-    public String getLibelle() {
-        return this.libelle;
+    public Role(int id) {
+        this.id= id;
+        this.libelle = null;
     }
 
+
+    /*
+       - portée
+       - type de donnée retournée ou void si la méthode ne retourne rien
+       - nom
+       - entre paranthèse les eventuels paramètres
+     */
+    public int getId() {
+        return id;
+    }
     public void setId(int id) {
         this.id = id;
     }
 
-    public int getId() {
-        return this.id;
+    public RoleEnum getLibelle() {
+        return libelle;
     }
 
-    public void setActive(boolean active, boolean uppercase) {
-        this.active = active;
-    }
-
-    public boolean getActive() {
-        return this.active;
+    public void setLibelle(RoleEnum libelle) {
+        this.libelle = libelle;
     }
 }

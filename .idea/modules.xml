@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/back-resa-event.iml" filepath="$PROJECT_DIR$/back-resa-event.iml" />
+      <module fileurl="file://$PROJECT_DIR$/back-resa-events.iml" filepath="$PROJECT_DIR$/back-resa-events.iml" />
     </modules>
   </component>
 </project>
