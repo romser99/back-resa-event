@@ -1,13 +1,13 @@
 package fr.solutec.resaevent.entites;
 
-public class Equipe extends Personne{
+public class Equipe extends Personne {
     private int id;
 
-    public Equipe () {
+    public Equipe() {
     }
 
-    public Equipe (int id) {
-        this.id=id;
+    public Equipe(int id) {
+        this.id = id;
     }
 
     public Equipe(String prenom, String nom, String email, String telephone, String password, Role role, int id) {
@@ -16,7 +16,7 @@ public class Equipe extends Personne{
     }
 
     public int getId() {
-        return id;
+        return this.id;
     }
 
     public void setId(int id) {

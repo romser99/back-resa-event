@@ -1,15 +1,17 @@
 package fr.solutec.resaevent.entites;
-// classe abstraite est unz classe qu'on ne peut pas instancier (pas de neww possible)
-// Il faut hériter de la classe pour l'instancier
+
 public abstract class Personne {
-    private String prenom ;
-    private String nom ;
-    private String email ;
-    private String telephone ;
+    private String prenom;
+    private String nom;
+    private String email;
+    private String telephone;
     private String password;
-    private Role role ;
+    private Role role;
 
-    public Personne( String prenom, String nom, String email, String telephone, String password, Role role) {
+    protected Personne() {
+    }
+
+    protected Personne(String prenom, String nom, String email, String telephone, String password, Role role) {
         this.prenom = prenom;
         this.nom = nom;
         this.email = email;
@@ -18,55 +20,51 @@ public abstract class Personne {
         this.role = role;
     }
 
-    public Personne() {
-
+    protected String getPrenom() {
+        return this.prenom;
     }
 
-    public Role getRole() {
-        return role;
-    }
-
-    public void setRole(Role role) {
-        this.role = role;
-    }
-
-    public String getPrenom() {
-        return prenom;
-    }
-
-    public void setPrenom(String prenom) {
+    protected void setPrenom(String prenom) {
         this.prenom = prenom;
     }
 
-    public String getNom() {
-        return nom;
+    protected String getNom() {
+        return this.nom;
     }
 
-    public void setNom(String nom) {
+    protected void setNom(String nom) {
         this.nom = nom;
     }
 
-    public String getEmail() {
-        return email;
+    protected String getEmail() {
+        return this.email;
     }
 
-    public void setEmail(String email) {
+    protected void setEmail(String email) {
         this.email = email;
     }
 
-    public String getTelephone() {
-        return telephone;
+    protected String getTelephone() {
+        return this.telephone;
     }
 
-    public void setTelephone(String telephone) {
+    protected void setTelephone(String telephone) {
         this.telephone = telephone;
     }
 
-    public String getPassword() {
-        return password;
+    protected String getPassword() {
+        return this.password;
     }
 
-    public void setPassword(String password) {
+    protected void setPassword(String password) {
         this.password = password;
+    }
+
+    protected Role getRole() {
+        return this.role;
+    }
+
+    protected void setRole(Role role) {
+        this.role = role;
     }
 }

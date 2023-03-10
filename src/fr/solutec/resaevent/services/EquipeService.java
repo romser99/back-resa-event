@@ -1,3 +1,5 @@
+/*
+
 package fr.solutec.resaevent.services;
 
 import fr.solutec.resaevent.entites.Equipe;
@@ -39,3 +41,5 @@ public class EquipeService {
 
     }
 }
+
+ */

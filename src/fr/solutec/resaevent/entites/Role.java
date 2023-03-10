@@ -3,19 +3,24 @@ package fr.solutec.resaevent.entites;
 import fr.solutec.resaevent.enums.RoleEnum;
 
 public class Role {
-    private int id ;
-    private RoleEnum libelle ;
+    private int id;
+    private RoleEnum libelle;
+
+    public Role() {
+    }
 
     public Role(int id, RoleEnum libelle) {
         this.id = id;
         this.libelle = libelle;
     }
 
-    public Role() {
+    public Role(int id) {
+        this.id = id;
+        this.libelle = null;
     }
 
     public int getId() {
-        return id;
+        return this.id;
     }
 
     public void setId(int id) {
@@ -23,7 +28,7 @@ public class Role {
     }
 
     public RoleEnum getLibelle() {
-        return libelle;
+        return this.libelle;
     }
 
     public void setLibelle(RoleEnum libelle) {
