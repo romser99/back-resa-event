@@ -27,7 +27,7 @@ public class Main {
 
             List<Adresse> adresses = adresseService.read() ;
             for (Adresse adresse : adresses){
-                System.out.println(adresse.getNumero() +" "+ adresse.getRue() +" "+ adresse.getCodePostal() +" "+ adresse.getVille()) ;
+                System.out.println("ID adresse: "+ adresse.getId() +" adresse : "+ adresse.getNumero() +" "+ adresse.getRue() +" "+ adresse.getCodePostal() +" "+ adresse.getVille()) ;
             }
         }
         else if (reponse.equals("1")) {
