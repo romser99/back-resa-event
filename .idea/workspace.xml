@@ -5,22 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7753027-90d0-4979-afb3-b2ff1ff9df1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fr/solutec/resaevents/entites/Equipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/solutec/resaevents/entites/Gestionnaire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/solutec/resaevents/enums/RoleEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/solutec/resaevents/utils/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/solutec/resaevents/entites/Clients.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/solutec/resaevents/entites/Gestionnaires.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/solutec/resaevents/entites/Personnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/solutec/resaevents/entites/Personne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/solutec/resaevents/entites/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/solutec/resaevents/entites/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/solutec/resaevents/dao/AdresseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/solutec/resaevents/dao/EtablissementDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/solutec/resaevents/entites/Adresse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/solutec/resaevents/entites/Etablissement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/solutec/resaevents/entites/QRCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/solutec/resaevents/services/AdresseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/solutec/resaevents/services/EtablissementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-resa-events.iml" beforeDir="false" afterPath="$PROJECT_DIR$/back-resa-events.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/back-resa-events/fr/solutec/resaevents/entites/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/back-resa-events/fr/solutec/resaevents/entites/Role.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/solutec/resaevents/principal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/solutec/resaevents/principal/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/solutec/resaevents/services/ClientService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/solutec/resaevents/services/GestionnaireService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/solutec/resaevents/services/GestionnaireService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/solutec/resaevents/services/PersonneService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/solutec/resaevents/services/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/solutec/resaevents/services/RoleService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +42,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dsi/Documents/PROJET FORMATION ESIC/back-resa-events/mysql-connector-j-8.0.32.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.solutec.resaevents.principal.Main" />
@@ -82,5 +82,16 @@
       <updated>1678177521924</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fr/solutec/resaevents/dao/EtablissementDAO.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,3 +1,4 @@
+/*
 package fr.solutec.resaevents.services;
 
 import fr.solutec.resaevents.entites.Gestionnaire;
@@ -33,7 +34,6 @@ public class GestionnaireService {
       gestionnaires.add(gestionnaire);    }
     return gestionnaires;
 
-
     public Gestionnaire read(Gestionnaire nom) {
         List<Gestionnaire> gestionnaires = this.list();
         Gestionnaire gestionnaire = gestionnaires.stream(nom);
@@ -45,3 +45,4 @@ public class GestionnaireService {
     }
 
 }
+*/
